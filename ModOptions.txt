@@ -25,7 +25,7 @@
 		desc   = 'Total score amount available.',
 		type   = 'number',
 		section= 'controlvictoryoptions',
-		def    = 2750,
+		def    = 3500,
 		min    = 500,
 		max    = 5000,
 		step   = 1,  -- quantization is aligned to the def value
@@ -65,7 +65,7 @@
 		type   = 'number',
 		section= 'controlvictoryoptions',
 		def    = 500,
-		min    = 250,
+		min    = 100,
 		max    = 1000,
 		step   = 25,  -- quantization is aligned to the def value
 		-- (step <= 0) means that there is no quantization

@@ -5,12 +5,13 @@ end
 
 --Is CV Enabled when you launch spring.exe directly?
 if Spring.GetModOptions().scoremode == nil then
-	Spring.GetModOptions().scoremode = "disabled"
+	Spring.GetModOptions().scoremode = "countdown"
 end
 
 -------------------------------------------------------
 -- Use a building mask for Control Points?
-useBuildingMask = false
+--If this is set to false, then any unit will be buildable in the control point
+useBuildingMask = true
 -------------------------------------------------------
 
 captureRadius = tonumber(Spring.GetModOptions().captureradius) -- Radius around a point in which to capture it
